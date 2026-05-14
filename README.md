@@ -37,20 +37,15 @@ The skill is **not** a religious framework. It does not require belief, ritual, 
 
 ### With Claude Code
 
-Paste this prompt into Claude Code — it clones the skill and wires up `~/.claude/CLAUDE.md` in one step:
-
-```
-Install the buddhist-method skill:
-1. Run: git clone https://github.com/nai0om/buddhist-method ~/.claude/skills/buddhist-method
-2. Open ~/.claude/CLAUDE.md (create it if it does not exist) and append:
-
-## Working method
-For tasks involving factual claims, debugging, user pushback,
-or long multi-step work, consult the buddhist-method skill at
-~/.claude/skills/buddhist-method/SKILL.md before responding.
+```bash
+npx skills@latest add tumit/buddhist-method --agent claude-code
 ```
 
-After that, Claude Code references the skill automatically across all sessions.
+Or manually:
+
+```bash
+git clone https://github.com/tumit/buddhist-method ~/.claude/skills/buddhist-method
+```
 
 ### With other Claude products
 

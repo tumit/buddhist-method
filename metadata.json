@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "organization": "TumIT",
+  "date": "May 2026",
+  "abstract": "Six Buddhist epistemic and decision-making principles as practical work disciplines for high-quality output. Targets LLM failure modes: pattern-matching instead of verifying (Kalāma), patching symptoms instead of root causes (Yoniso Manasikāra, Pahāna), acting on stale state (Sati-Sampajañña), defending wrong drafts (Anatta), capitulating under pressure (Upekkhā). Includes extended principles for long tasks and the Four Noble Truths debugging frame.",
+  "references": [
+    "https://github.com/tumit/buddhist-method"
+  ]
+}
